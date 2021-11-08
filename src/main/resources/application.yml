@@ -5,7 +5,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/Micro-Servicios/server-config
+
+          uri: https://github.com/Micro-Servicios/micro-servicio
+
           default-label: "main"
 
 server:
