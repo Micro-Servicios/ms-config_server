@@ -8,11 +8,6 @@ networks:
       config:
         - subnet: 172.27.0.0/16
           gateway: 172.27.0.1
-#networks:
-#  software:
-#    name: network-msproyect
-#    external: true
-
 services:
   ms-config-server:
     image: ms-config_server:0.0.1
@@ -24,6 +19,5 @@ services:
     environment:
       - "ZIPKIN_URL=http://192.168.0.2:9411"
       - "EUREKA_URI=http://ms-discovery:8762/eureka"
-
     volumes:
       - "/opt/local:/opt/arqutectura/logs"
