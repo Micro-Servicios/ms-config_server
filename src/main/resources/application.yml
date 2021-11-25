@@ -11,49 +11,49 @@ spring:
           default-label: "main"
 
           #uri: git@github.com:Micro-Servicios/micro-servicio.git
-          #ignoreLocalSshSettings: true
-          #hostKey: "AAAAB3NzaC1yc2EAAAADAQABAAABAQCsj2bNKTBSpIYDEGk9KxsGh3mySTRgMtXL583qmBpzeQ+jqCMRgBqB98u3z++J1sKlXHWfM9dyhSevkMwSbhoR8XIq/U0tCNyokEi/ueaBMCvbcTHhO7FcwzY92WK4Yt0aGROY5qX2UKSeOvuP4D6TPqKF1onrSzH9bx9XUf2lEdWT/ia1NEKjunUqu1xOB/StKDHMoX4/OKyIzuS0q/T1zOATthvasJFoPrAjkohTyaDUz2LN5JoH839hViyEG82yB+MjcFV5MU3N1l1QL3cVUCh93xSaua1N85qivl+siMkPGbO5xR/En4iEY6K2XPASUEMaieWVNTRCtJ4S8H+9"
-          #hostKeyAlgorithm: ssh-rsa
-          #private-key: |
-          #  -----BEGIN RSA PRIVATE KEY-----
-          #  MIIG4wIBAAKCAYEAsjSkGrBPcGbS81KQhC12km07lQiT3mqqUz0SAkGiQ9LWo4OX
-          #  eWoIsVzl1e673Jh/hkL+z54O0d+uxagpNZsd96e3iyWcz7KgJbm5QsqMXt4r8hfL
-          #  +T9lQerLAtA0E5gQKerv9ZKepmCBBKuSdgCJWCdFLAI0QLrhUqQovnw+CJSiXmvg
-          #  2gAgJieQMTZMlCsvqKyvYSV1SB8gZgRKdApAyYYax7WnyUCc9llbYOhwJOUl7hig
-          #  UCUbb9dTxdLWVB3TAHdVpzgyTDwZYOvrTyBpBHxcOsHW1rkqpM8cceliaKOAWTH+
-          #  ER3Ffq8yGdEm/+Ij5ka2Hy0irwo+EZxksFEfXb9/I6hlb/y4rp+PPit84axornQ2
-          #  fEXfmtwVzlsebke9JxIYiy6qfTOcwTWQM6EZzd0R/5dNctsb6LM8+9TMCRWoaxs9
-          #  TwqiuvwxDJwvszhLYR49Te8W4m/jLRRC+1a0Kw5kUzvreFcJDEa0MdQu1RTI2pt1
-          #  YfN9pIAXoowQdyk7AgMBAAECggGAaJ9XKQQR31++wXPbvH4ketr+fATJK29cB/p2
-          #  tDRsW31Q3jbHm1SRPe/YT70VNfGiDOUQTDvzX2v/Y7PSXdJvyZIBxAOVCKtKMlvT
-          #  VE8uEhRFoKAv9GkvvX9nKIOrz0UbWEDCGF64Hd3SYTeJiRXPjJ2hkrDIlKgi2S3f
-          #  bdXrZYY9vUmAfPxN45ieowXJ98NS+6hGXrZrIKiFkN88BtxuJOJCnrUbiKASht73
-          #  MvHDxSVzG1IB7IucjBDS8fVSN5g56OYj+DAEORe5nqUgnfgg5NfiPVVa5b80AsuM
-          #  OyL/LCQ69YMh0ARl1PnKPXcu9BfdXaEKRNwgStJkYT9e2aWE6PMIGRQzKDX3BM3x
-          #  KGVW34k8IeEQs+75TlWhywsAmcHUYABnlNK6jlwaix6kGCgRDAa5TTlEkgPZyoyp
-          #  AJm2Ae8jG+tHahokdzTKFqJSdbi1vgFvQptuBA5M1A/75yAu+qWaNMxtR3vrMYd0
-          #  AlR/fQ+dj9y+m75hxRRwH8wkoiwhAoHBAOl2P6GVPRaVxLG+19ahAtFKvWGiQfUh
-          #  pWE/RipraLJV3Lp05AfHXFBml/Bdc8WsJU+4r1JcObG8DJROI7IMuvLS4AGvYDFf
-          #  Y7+zbq8tTkopURz4MBbg35jLCc6Ai3lV8NusggrSObqCrv19nL+rBgOWObrSxxti
-          #  pUgLCFIP7OwgAsxU8a5LsgpHdBUUFVRh4Ol+szLJt5qv/JXcXRfTinc4SeMqOUhs
-          #  DZG+ZU4b/oSTiOMTPOxIi685UsNzvyhZ7wKBwQDDaMuDkvXJpoaR2xVQJVhT3uI6
-          #  BxGMETAjmfTyhMzETmPr01Qxlv2f3+hwSfdxoQ2JBNUE7dT0xWcXqyLVMwXeS926
-          #  Y5ujNT/jypSbTG6XuWnWijFsm+xOFU3kJLJGxDGugIz3Jo0fsHhm6F34XWKDgvvM
-          #  dJB8g7Ie2CP3wa/m+pBINcJe0AkxWYX8eqfZo9pVnbHXJ+xI3YQoC9ohmiuFH/pg
-          #  6IKnueNo8xmR4MoiCvW3pKeLDw6SXTklfLq14XUCgcEAspsujxW3iIHH2xvf0GmZ
-          #  2DhPrlQOFdVJyp43tdg6XsTlexhWI8VXUINMli1Ilt/eI6FtL5sy4FC3ZvZoxJyM
-          #  oZzGl0NuWhdaHpzNfuMwU/hL/9e4IqijJyeeNweMrKUdAVJ2ooS2eYPlEDV7J/9V
-          #  OIVDYTRD8yWCwRz/nphkbzkGKwCJbQioCskje8TDlKzU/o1Z1u8Psh4VJSlTZxkF
-          #  g7PigxIYhNl1gByjMCCmlRKx1Ncw8quFgeZe9PymL96tAoHARiTG8Qr+yYzKP28a
-          #  HnPZWfnm0Read+Hvmsf4AlojOtA80/k+/rIJhqsUP8J9XT+HoUinwqYwzFBT6k4X
-          #  Kdqv35TyGacJxjMmJPmiEIEGLdZzpHxks2zhDUJefGejyv1ALDie4VToUZjCD4aX
-          #  vMCgzT5mboTlHJ0Vgjbp6lSPdOU6h4EsrWYV9q4BB5lryRclF5iMrwP4sEs71jgy
-          #  697wgk/xS3oK9HQoqpKg+hlr1X6Dp5EmRyd3fpiSG9/DEejFAoHAWD7npOb7OPYG
-          #  1YemE0slgg+4v51+vLj6WnzdJKnxJbnKVVarvahQkVVd5LzS/tyRhYYQgVxdgxED
-          #  4tf2eRbSj9lS0mhgmSke9R+OPtqOGoViB3D+p8Is3WFyDfjWSwzsF4B8gm7Ot6Py
-          #  tmQdoiNnrNoL2wqnXO0OPU8SL10LmOXFHt9jdKNZLbm8Zyf/8choRLI2K/fc/hQ/
-          #  fMszR1AA1aHGsc3N9q9HDp/h9O/ZgrotDqNQHEw8GYXiNE1stm9R
-          #  -----END RSA PRIVATE KEY-----
+          ignoreLocalSshSettings: true
+          hostKey: "AAAAB3NzaC1yc2EAAAADAQABAAABAQCsj2bNKTBSpIYDEGk9KxsGh3mySTRgMtXL583qmBpzeQ+jqCMRgBqB98u3z++J1sKlXHWfM9dyhSevkMwSbhoR8XIq/U0tCNyokEi/ueaBMCvbcTHhO7FcwzY92WK4Yt0aGROY5qX2UKSeOvuP4D6TPqKF1onrSzH9bx9XUf2lEdWT/ia1NEKjunUqu1xOB/StKDHMoX4/OKyIzuS0q/T1zOATthvasJFoPrAjkohTyaDUz2LN5JoH839hViyEG82yB+MjcFV5MU3N1l1QL3cVUCh93xSaua1N85qivl+siMkPGbO5xR/En4iEY6K2XPASUEMaieWVNTRCtJ4S8H+9"
+          hostKeyAlgorithm: ssh-rsa
+          private-key: |
+            -----BEGIN RSA PRIVATE KEY-----
+            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
+            -----END RSA PRIVATE KEY-----
 server:
   port: 8889
 eureka:
